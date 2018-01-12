@@ -13,13 +13,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.zip.GZIPOutputStream;
 
-/*
-* HTTP方式将日志发送到zipkin
-* 作者：姜敏
-* 版本：V1.0
-* 创建日期：2017/4/13
-* 修改日期:2017/4/13
-*/
+
 public class HttpCollector extends AbstractSpanCollector {
 
     public HttpCollector(SpanCodec codec, SpanCollectorMetricsHandler metrics, int flushInterval) {

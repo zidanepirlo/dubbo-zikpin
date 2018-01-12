@@ -1,12 +1,6 @@
 package com.yuan.dubbo.core.trace.config;
 
-/*
-* 日志追踪 自动配置的相关属性
-* 作者：姜敏
-* 版本：V1.0
-* 创建日期：2017/4/13
-* 修改日期:2017/4/13
-*/
+
 //@ConfigurationProperties(prefix = "dubbo.trace")
 public class TraceConfig {
 

@@ -6,14 +6,7 @@ import com.yuan.dubbo.core.trace.config.TraceConfig;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
-* 日志追踪上下文
-* 主要结合zipken
-* 作者：姜敏
-* 版本：V1.0
-* 创建日期：2017/4/13
-* 修改日期:2017/4/13
-*/
+
 public class TraceContext extends AbstractContext {
 
     private static ThreadLocal<Long> TRACE_ID = new InheritableThreadLocal<>();

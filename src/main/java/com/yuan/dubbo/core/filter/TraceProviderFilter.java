@@ -16,13 +16,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
-/*
-* 服务端日志过滤器
-* 作者：姜敏
-* 版本：V1.0
-* 创建日期：2017/4/13
-* 修改日期:2017/4/13
-*/
+
 @Activate(group = Constants.PROVIDER)
 public class TraceProviderFilter implements Filter {
 

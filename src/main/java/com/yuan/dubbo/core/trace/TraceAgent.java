@@ -12,13 +12,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
-/*
-* 日志追踪代理器
-* 作者：姜敏
-* 版本：V1.0
-* 创建日期：2017/4/13
-* 修改日期:2017/4/13
-*/
+
 public class TraceAgent {
     private final AbstractSpanCollector collector;
 

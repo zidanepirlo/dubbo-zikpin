@@ -3,13 +3,7 @@ package com.yuan.dubbo.core.utils;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/*
-* 获取随机数字工具类
-* 作者：姜敏
-* 版本：V1.0
-* 创建日期：2017/4/13
-* 修改日期:2017/4/13
-*/
+
 public class IdUtils {
     public static final int TOTAL_BITS_LENGTH = 63;
 
